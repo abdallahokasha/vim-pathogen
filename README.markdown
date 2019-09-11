@@ -16,6 +16,10 @@ Or copy and paste the following into your terminal/shell:
     curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 If you're using Windows, change all occurrences of `~/.vim` to `~\vimfiles`.
+```
+    mkdir -p ~\vimfiles\autoload ~\vimfiles\bundle && \
+    curl -LSso ~\vimfiles\autoload\pathogen.vim https://tpo.pe/pathogen.vim
+    ```
 
 ## Runtime Path Manipulation
 
